@@ -1,0 +1,210 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+    font-family: "Karma", sans-serif;
+}
+
+html {
+    font-size: 10px;
+}
+
+nav {
+    width: 100%;
+    background-color: #fff;
+    padding: 16px 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    font-size: 2.4rem;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+}
+
+nav div {
+    padding: 16px;
+}
+
+nav div:hover {
+    background-color: #ccc;
+}
+
+main {
+    width: 72%;
+    margin: 0 auto;
+}
+
+section h2 , p {
+    text-align: center;
+}
+
+main section:nth-child(1) , section:nth-child(2) , section:nth-child(3) {
+    width: 104%;
+    display: flex;
+}
+
+section div {
+    width: 26%;
+    padding: 0 8px;
+}
+
+section div h2 {
+    font-size: 2.4rem;
+    font-weight: lighter;
+    margin: 10px 0;
+}
+
+section div p {
+    font-size: 1.5rem;
+    margin: 15px 0;
+}
+
+#number {
+    display: flex;
+    margin: 0 auto;
+    padding: 32px 0;
+}
+
+#number div:nth-child(2) {
+    background-color: #000;
+    color: #fff;
+}
+
+#number div:hover {
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#number div:nth-child(2):hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+hr {
+    color: #ccc;
+    margin: 20px 0;
+}
+
+h1 {
+    padding: 10px 0;
+    font-size: 2.4rem;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.chef {
+    width: 100%;
+    padding: 36px 16px;
+}
+
+.chef img {
+    margin-left: calc(85% - 800px);
+}
+
+h3 {
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 32px;
+    margin: 10px 0;
+}
+
+.italic {
+    margin: 10px 0;
+    font-size: 1.6rem;
+    font-style: italic;
+    text-align: center;
+}
+
+.text {
+    font-size: 1.5rem;
+    margin: 15px 0;
+}
+
+footer {
+    padding: 32px 8px;
+    display: flex;
+    width: 72%;
+    margin: 0 auto;
+}
+
+footer div {
+    padding: 0 8px;
+    width: 33%;
+}
+
+footer h2 {
+    font-size: 2.4rem;
+    margin: 10px 0;
+    font-weight: lighter;
+}
+
+footer p {
+    font-size: 1.5rem;
+    margin: 15px 0;
+    text-align: start;
+}
+
+footer a {
+    color: #000;
+}
+
+footer span {
+    font-size: 1.8rem;
+}
+
+footer div div {
+    padding: 16px;
+}
+
+#eshutyun1 {
+    font-size: 1.5rem;
+    padding: 0 8px;
+    margin: 0 0 16px;
+    color: #fff;
+    background-color: #000;
+    width: 54px;
+}
+
+#esh {
+    display: flex;
+}
+
+.eshutyun {
+    font-size: 1.2rem;
+    padding: 0 4px;
+    margin: 0 6px;
+    color: #fff;
+    background-color: #616161;
+    height: 15px;
+}
+
+@media screen and (max-width:1427px) {
+    main section:nth-child(1) , section:nth-child(2) , section:nth-child(3) {
+        display: block;
+    }
+
+    main section div {
+        width: 78%;
+        margin: 0 auto;
+    }
+
+    main section div img {
+        width: 100%;
+    }
+
+    footer {
+        display: block;
+    }
+
+    footer div {
+        width: 109%;
+    }
+
+    .chef img {
+        margin-left: 0;
+        width: 100%;
+    }
+}
